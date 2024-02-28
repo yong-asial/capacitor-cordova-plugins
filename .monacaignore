@@ -7,3 +7,5 @@
 typings/
 node_modules
 .git
+/ios
+/android

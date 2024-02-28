@@ -1,0 +1,46 @@
+{
+  "appId": "jp.co.asial.yong",
+  "appName": "capacitor-cordova-plugins",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "monaca-app",
+    "hostname": "localhost"
+  },
+  "cordova": {
+    "preferences": {
+      "StatusBarOverlaysWebView": "false",
+      "StatusBarBackgroundColor": "#00FF00",
+      "StatusBarStyle": "lightcontent",
+      "StatusBarDefaultScrollToTop": "false",
+      "DisallowOverscroll": "true",
+      "Orientation": "default",
+      "loglevel": "DEBUG",
+      "AndroidLaunchMode": "singleTop",
+      "ErrorUrl": "",
+      "Fullscreen": "false",
+      "KeepRunning": "true",
+      "SplashScreen": "screen",
+      "SplashScreenDelay": "1000",
+      "AllowInlineMediaPlayback": "false",
+      "AutoHideSplashScreen": "true",
+      "BackupWebStorage": "cloud",
+      "FadeSplashScreen": "true",
+      "FadeSplashScreenDuration": "250",
+      "KeyboardDisplayRequiresUserAction": "true",
+      "ShowSplashScreenSpinner": "false",
+      "SuppressesIncrementalRendering": "false",
+      "TopActivityIndicator": "gray",
+      "GapBetweenPages": "0",
+      "PageLength": "0",
+      "PaginationBreakingMode": "page",
+      "PaginationMode": "unpaginated",
+      "UIWebViewDecelerationSpeed": "normal",
+      "monaca:AndroidIsPackageNameSeparate": "false",
+      "target-device": "universal",
+      "MediaTypesRequiringUserActionForPlayback": "none",
+      "WindowsStorePublisherName": "My Name",
+      "WindowsStoreIdentityName": "6d2d6a89-5daf-d251-e8f8-2388b2a6f558"
+    }
+  }
+}
