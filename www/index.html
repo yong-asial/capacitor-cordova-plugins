@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Monaca</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script type="text/javascript" src="components/loader.js"></script>
+  <link rel="stylesheet" type="text/css" href="components/loader.css">
+  <link rel="stylesheet" href="demo/master.css" type="text/css" media="screen" title="no title">
+  <script type="text/javascript" charset="utf-8" src="demo/main.js"></script>
+</head>
+
+<body onload="init();" id="stage" class="theme">
+
+  <h1>Welcome to Monaca!</h1>
+  <h2>this file is demo.html</h2>
+  <div id="info">
+    <h4>Platform: <span id="platform"> &nbsp;</span>, Version: <span id="version">&nbsp;</span></h4>
+    <h4>UUID: <span id="uuid"> &nbsp;</span>, Name: <span id="name">&nbsp;</span></h4>
+    <h4>Width: <span id="width"> &nbsp;</span>, Height: <span id="height">&nbsp;
+      </span>, Color Depth: <span id="colorDepth"></span></h4>
+    <h4>Battery: <span id="battery">&nbsp;</span>
+  </div>
+  <a href="#" class="btn large" onclick="getLocation();">Get Location</a>
+  <a href="#" onclick="cordova.InAppBrowser.open('tel:411', '_system'); return false;" class="btn large">Call 411</a>
+  <a href="#" class="btn large" onclick="vibrate();">Vibrate</a>
+  <a href="#" class="btn large" onclick="show_pic();">Get a Picture</a>
+  <a href="#" class="btn large" onclick="check_network();return false;">Check Network</a>
+  <a href="#" class="btn large" onclick="onFileWrite();">Write File</a>
+  <a href="#" class="btn large" onclick="onFileRead();">Read File</a>
+  <a href="#" class="btn large" onclick="onMediaCaptureImage();">MediaCapture Image</a>
+  <a href="#" class="btn large" onclick="onMediaCaptureAudio();">MediaCapture Audio</a>
+  <a href="#" class="btn large" onclick="onMediaCaptureVideo();">MediaCapture Video</a>
+  <a href="#" class="btn large" onclick="onScreenOrientation();">Screen Orientation</a>
+  <a href="#" class="btn large" onclick="onDialog();">Dialog</a>
+  <a href="#" class="btn large" onclick="onMedia();">Media (Play recorded audio)</a>
+  <div id="viewport" class="viewport" style="display: none;">
+    <img style="width:60px;height:60px" id="test_img" src="" alt=""/>
+  </div>
+</body>
+
+</html>
