@@ -27,13 +27,13 @@
         "cordova-plugin-dialogs": "2.0.2",
         "cordova-plugin-file": "8.0.1",
         "cordova-plugin-geolocation": "5.0.0",
+        "cordova-plugin-inappbrowser": "5.0.0",
         "cordova-plugin-media": "7.0.0",
         "cordova-plugin-media-capture": "5.0.0",
         "cordova-plugin-network-information": "3.0.0",
         "cordova-plugin-screen-orientation": "3.0.4",
         "cordova-plugin-statusbar": "4.0.0",
-        "cordova-plugin-vibration": "3.1.1",
-        "monaca-plugin-monaca-core": "3.3.1"
+        "cordova-plugin-vibration": "3.1.1"
     },
     "cordova": {
         "plugins": {
@@ -43,13 +43,13 @@
             "cordova-plugin-dialogs": {},
             "cordova-plugin-file": {},
             "cordova-plugin-geolocation": {},
+            "cordova-plugin-inappbrowser": {},
             "cordova-plugin-media": {},
             "cordova-plugin-media-capture": {},
             "cordova-plugin-network-information": {},
             "cordova-plugin-screen-orientation": {},
             "cordova-plugin-statusbar": {},
-            "cordova-plugin-vibration": {},
-            "monaca-plugin-monaca-core": {}
+            "cordova-plugin-vibration": {}
         }
     }
 }
